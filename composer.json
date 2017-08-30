@@ -1,0 +1,30 @@
+{
+    "name": "shizhan/easy-router",
+    "description": "A Lightweight PHP Router",
+    "keywords": [
+        "php-router",
+        "router"        
+    ],
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TIGERB",
+            "email": "tigerbcode@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyRouter\\": "/src",
+            "EasyRouter\\Router": "/src/router",
+            "EasyRouter\\Exceptions": "/src/exceptions"
+        }
+    },
+    "minimum-stability": "stable"
+}
